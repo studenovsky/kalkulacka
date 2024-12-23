@@ -1,0 +1,25 @@
+<html>
+<head>
+ <title>Kalkulačka</title>
+ <link href="https://fonts.googleapis.com/css2?family=Digital-7:wght@400;700&display=swap" rel="stylesheet">
+ <script src="kalkulacka.js"></script>
+ <link href="kalkulacka.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Kalkulačka</h1>
+    <div class="kalkulacka">
+    <div id="vysledek">&nbsp;</div>
+    <div id="formular">
+        <input id="vstup1">
+        <span id="operator">&nbsp;</span>
+        <input id="vstup2">
+        <div id="tlacitka">
+            <button type="button" onclick="calculate('+');" id="tlPlus" value="+">+</button>
+            <button type="button" onclick="calculate('-');" id="tlMinus" value="-">-</button>
+            <button type="button" onclick="calculate('x');" id="tlKrat" value="x">x</button>
+            <button type="button" onclick="calculate('/');" id="tlDeleno" value="/">/</button>
+        </div>   
+    </div>
+    </div>
+</body>
+</html>

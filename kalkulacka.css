@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Digital-7';
+    src: url('digital-7/digital-7.ttf') format('truetype');
+}
+
+html{
+    background-color: #000;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    max-width: 31%;
+}
+
+h1 {
+    color: rgb(150, 147, 147);
+    margin:0;
+}
+
+#vysledek {
+    background-color: #9b8c08;
+    font-family: 'Digital-7', sans-serif;
+    font-size: 80px;
+    text-align: right;
+    padding-right: 5px;
+}
+.kalkulacka {
+    font-size: 30px;
+    color: #000; /* Zelená barva jako na digitálních hodinách */
+    background-color: #D3D3D3; /* Černé pozadí */
+    font-weight: bold;    
+}
+
+#formular {
+    text-align:center;
+}
+
+input {
+    font-family: 'Digital-7', sans-serif; /* Nastavte požadovaný font */
+    font-size: 25px; /* Nastavte velikost písma */
+    color: #000; /* Barva textu */
+    border: 2px solid #000; /* Zelený rámeček */
+    width: 100px; /* Nastavte požadovanou šířku */
+    text-align:right;
+}
+
+#tlacitka {
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
